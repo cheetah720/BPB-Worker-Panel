@@ -6,7 +6,7 @@ import { SignJWT, jwtVerify } from 'jose';
 
 // How to generate your own UUID:
 // https://www.uuidgenerator.net/
-let userID = '89b3cbba-e6ac-485a-9481-976a0415eab9';
+let userID = '6b6f29e8-ceb8-4e8d-95b1-52195f1c8d21';
 let trojanPassword = `bpb-trojan`;
 
 // https://www.nslookup.io/domains/bpb.yousef.isegaro.com/dns-records/
@@ -276,7 +276,7 @@ export default {
 
                     default:
                         return new Response('Not found', { status: 404 });
-                        url.hostname = 'www.speedtest.net';
+                        url.hostname = 'www.hao123.com';
                         url.protocol = 'https:';
                         request = new Request(url, request);
                         return await fetch(request);
